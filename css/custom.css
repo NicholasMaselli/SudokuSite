@@ -1,0 +1,107 @@
+.navbar-text > a {
+	color: inherit;
+	text-decoration: none;
+}
+
+body {
+	padding-top: 70px;
+	padding-bottom: 100px;
+}
+
+.navbar-default {
+	background-color: #2C3E50;
+	border-color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand {
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	color: #18BC9C;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav> .active > a,
+.navbar-default .navbar-nav> .active > a:hover,
+.navbar-default .navbar-nav> .active > a:focus {
+	color: #FFFFFF;
+	background-color: #1A242F;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #18BC9C;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	background-color: #1A242F;
+	color: #FFFFFF;
+}
+
+.btn-default {
+	background-color: #95A5A6;
+	border-color: #95A5A6;
+	color: #FFFFFF;
+}
+
+
+/*Primary*/
+table {
+	display: table;
+	border: solid #09083a 2px;
+	white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    font-variant: normal normal;
+	margin: 0 auto;
+}
+
+.innerTable {
+	border: solid #09083a 2px;
+}
+
+.sudokuCell {
+	border: solid #AAAAAA 1px;
+	color: black;
+	width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 18pt;
+    font-family: times,serif;
+}
+
+.cellInput {
+	font-size: 24pt;
+	-webkit-appearance: none;
+    outline: none;
+    border: solid 0 #fff;
+    text-align: center;
+    margin: 0;
+    width: 24pt;
+}
+
+.generatedSolution {
+	color: blue;
+}
+
+#errorMessage {
+	color: red;
+}
+
+.error {
+	display: none;
+}
